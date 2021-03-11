@@ -99,7 +99,7 @@ FSTNode("MoveTo").Think()가 3번의 Tick마다 연속적으로 true를 반환 �
 
 ## Demo
 
-[Demo ![Sample screenshot](images/sample_screenshot.png)](https://kuimoani.github.io/FSM/UnitySample/UnityFSTSample_Output/index.html)
+[Demo ![Sample screenshot](images/sample_screenshot.png)](https://kuimoani.github.io/FiniteStateTree/UnitySample/UnityFSTSample_Output/index.html)
 
 ## Tip & Trick
 
