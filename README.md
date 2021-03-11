@@ -99,6 +99,8 @@ FSTNode("MoveTo").Think()가 3번의 Tick마다 연속적으로 true를 반환 �
 
 ## Demo
 
+아래 데모는 적이 4개 구역을 정찰하며 유저 마우스가 가까이 오면 추적하고 마우스가 멀어지면 다시 정찰을 하는 루틴으로 구성되었습니다.
+
 [Demo ![Sample screenshot](images/sample_screenshot.png)](https://kuimoani.github.io/FiniteStateTree/UnitySample/UnityFSTSample_Output/index.html)
 
 ## Tip & Trick
