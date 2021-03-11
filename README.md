@@ -1,13 +1,13 @@
-# FSM (Finite State Machine)
+# FST (Finite State Tree)
 
 ## Intro
-FST(Finite State Machine/유한상태트리)는 게임에서 간단한 인공지능을 구현하기 위하여 개발 되었습니다.
+FST(Finite State Tree/유한상태트리)는 게임에서 간단한 인공지능을 구현하기 위하여 개발 되었습니다.
 
-보편적으로 많은 게임들이 초반에 FSM(유한상태기계)를 선택하지만, 오직 1개의 State만 가질 수 있는 특성상, State가 늘어날수록 유지보수, 확장, 재사용에 어려움이 많아 HFSM(Hierarchical Finite State Machine/State Charts) 또는 BT(Behavior Tree)도 많이 도입하는 추세입니다.
+보편적으로 많은 게임들이 초반에 FSM(Finite State Machine/유한상태기계)를 선택하지만, 오직 1개의 State만 가질 수 있는 특성상, State가 늘어날수록 유지보수, 확장, 재사용에 어려움이 많아 HFSM(Hierarchical Finite State Machine/State Charts) 또는 BT(Behavior Tree)도 많이 도입하는 추세입니다.
 
 특히, BT는 유지보수, 확장, 재사용에서 큰 장점이 있지만 Composite Node 가 늘어날 수록 프로토타입이나 규모가 작은 게임에서 초기에 선택하기엔 너무 복잡했으며, FSM의 Transition 처럼 State의 변화를 알기 번거롭기 때문에 유니티에서 FSM 방식으로 구현된 Animation Controller와 연계하기도 어려운 점이 있었습니다.
 
-따라서 BT의 의사결정 방식과 FSM의 State를 적당히 결합하여 FSM (Finite State Machine)이라는 의사결정/행동 매커니즘을 만들어 보았습니다.
+따라서 BT의 의사결정 방식과 FSM의 State를 적당히 결합하여 FST (Finite State Tree)이라는 의사결정/행동 매커니즘을 만들어 보았습니다.
 
 ## How to work
 
